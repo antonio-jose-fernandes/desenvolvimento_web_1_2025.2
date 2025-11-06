@@ -1,0 +1,22 @@
+<html>
+<head>
+  <style>
+    body {
+      background-color: green; /* Padrão para telas menores que 1000px */
+    }    
+    @media screen and (min-width: 1000px) {
+      body {
+        background-color: blue; /* Para telas maiores ou iguais a 1000px */
+      }
+    }    
+    @media screen and (min-width: 1300px) {
+      body {
+        background-color: red; /* Para telas maiores ou iguais a 1300px */
+      }
+    }
+  </style>
+</head>
+<body>
+  <p>Texto com fundo colorido dependendo do tamanho da tela.</p>
+</body>
+</html>
